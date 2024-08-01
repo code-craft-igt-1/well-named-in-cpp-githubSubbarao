@@ -11,4 +11,4 @@ using namespace TelCoColorCoder;
         TelCoColorCoder::MinorColor minor,
         int expectedPairNumber);
 
-    void DisplayColorCoding();
+    void DisplayColorPair();

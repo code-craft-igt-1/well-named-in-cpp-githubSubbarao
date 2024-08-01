@@ -21,10 +21,10 @@
         assert(pairNumber == expectedPairNumber);
     }
 
-    void DisplayColorCoding()
+    void DisplayColorPair()
     {
-        std::cout << "\n-------25-pair color code-------" << std::endl;
-        std::cout << " Pair No.     Major Color     Minor Color" << std::endl;
+        std::cout << "\n color codes" << std::endl;
+        std::cout << " Pair No. |    Major Color |    Minor Color" << std::endl;
         int totalCount = numberOfMajorColors * numberOfMinorColors;
         for (int index = 1; index <= totalCount; index++)
         {
